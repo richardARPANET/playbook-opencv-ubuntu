@@ -1,4 +1,8 @@
 ---
+- name: Add to repository for ffmpeg installation
+  sudo: yes
+  apt_repository: repo='ppa:mc3man/trusty-media'
+
 - name: Install dependencies
   sudo: yes
   apt: "name='{{ item }}' state=installed update_cache=yes"

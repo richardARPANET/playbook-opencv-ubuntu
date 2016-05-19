@@ -13,9 +13,9 @@ opencv_dependencies:
   - zlib1g
   - zlib1g-dev
   - pngtools
-  - libtiff4-dev
-  - libtiff4
-  - libtiffxx0c2
+  - libtiff5-dev
+  - libtiff5
+  # - libtiffxx0c2
   - libtiff-tools
   - libjpeg8
   - libjpeg8-dev
@@ -23,8 +23,10 @@ opencv_dependencies:
   - libjpeg-progs
   - ffmpeg
   - libavcodec-dev
-  - libavcodec53
-  - libavformat53
+  - libav-tools
+  - unzip
+  # - libavcodec53
+  # - libavformat53
   - libavformat-dev
   - libgstreamer0.10-0-dbg
   - libgstreamer0.10-0
@@ -41,14 +43,14 @@ opencv_dependencies:
   - libv4l-0
   - libv4l-dev
   - python-numpy
-  - libpython2.6
+  - libpython2.7
   - python-dev
-  - python2.6-dev
+  - python2.7-dev
   - libgtk2.0-dev
   - pkg-config
-opencv_src_url: "http://softlayer-dal.dl.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.10/opencv-2.4.10.zip"
-opencv_src_file: "~/opencv-2.4.10.zip"
-opencv_src_dir: "opencv-2.4.10"
+opencv_src_url: "http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.11/opencv-2.4.11.zip?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fopencvlibrary%2Ffiles%2Fopencv-unix%2F2.4.11%2F&ts=1463662124&use_mirror=nbtelecom"
+opencv_src_file: "~/opencv-2.4.11.zip"
+opencv_src_dir: "opencv-2.4.11"
 opencv_src_build_dir: "build"
 opencv_conf_file: "/etc/ld.so.conf.d/opencv.conf"
 opencv_bashrc_file: "/etc/bash.bashrc"
